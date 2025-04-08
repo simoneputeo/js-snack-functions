@@ -18,3 +18,6 @@ function filter(namesList, initial) {
 // Invoca la funzione qui e stampa il risultato in console
 const result = filter(names, input);
 console.log(result);
+
+//funzione con arrow function e implicit return
+const filter = (namesList, initial) => namesList.filter(name => name[0] === initial);
